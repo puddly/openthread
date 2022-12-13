@@ -870,7 +870,7 @@ public:
     /**
      * This method tries to reset the co-processor.
      *
-     * @prarm[in] aResetType    The reset type, SPINEL_RESET_PLATFORM or SPINEL_RESET_STACK.
+     * @prarm[in] aResetType    The reset type, SPINEL_RESET_PLATFORM, SPINEL_RESET_STACK, or SPINEL_RESET_BOOTLOADER.
      *
      * @retval  OT_ERROR_NONE               Successfully removed item from the property.
      * @retval  OT_ERROR_BUSY               Failed due to another operation is on going.
